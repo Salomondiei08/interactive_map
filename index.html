@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Map</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- CSS libraries -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Map and Buttons -->
+            <div class="col">
+                <div class="row">
+                    <div class="col text-right py-3">
+                        <button id="add-marker" class="btn btn-primary btn-lg mx-1 rounded-button">Add Marker</button>
+                        <button id="set-marker" class="btn btn-secondary btn-lg mx-1 rounded-button" disabled>Set
+                            Position</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div id="map" style="width: 100%; height: 500px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Panel -->
+            <div class="col-3 sidebar-panel">
+                <h2>Side Panel</h2>
+                <p>This is the side panel. You can put anything here!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS libraries -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

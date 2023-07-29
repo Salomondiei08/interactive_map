@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+  }
+  
+  .sidebar-panel {
+    background: #fff;
+    border-left: 1px solid #e1e4e8;
+    padding: 1em;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EBF5FB; /* light blue */
+    color: #5D6D7E; /* dark blue */
+  }
+  
+  .sidebar-panel {
+    background: #FEF9E7; /* light yellow */
+    border-left: 1px solid #D1D8E0; /* grey */
+    padding: 1em;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .rounded-button {
+    border-radius: 50px !important;
+    font-size: .8em;
+    padding: .6em 1.2em;
+    background-color: #D1F2EB; /* light green */
+    color: #1B4F72; /* dark blue */
+  }
+  
+  button.btn-primary {
+    background-color: #D6EAF8; /* light blue */
+    border-color: #85C1E9; /* blue */
+    border-radius: 20%;
+  
+  }
+  
+
+  button.btn-secondary {
+    background-color: #F5EEF8; /* light violet */
+    border-color: #BB8FCE; /* violet */
+  }
+  
+  #map {
+    height: calc(100vh - 80px);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  }
+  
+  .rounded-button {
+    border-radius: 50px !important; /* Makes the button round */
+    font-size: .8em;
+    padding: .6em 1.2em;
+  }
+  
+  #map {
+    height: calc(100vh - 80px); /* Full height less the height of buttons */
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  }
