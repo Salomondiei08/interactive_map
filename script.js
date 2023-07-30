@@ -61,6 +61,7 @@ document.getElementById('add-marker').addEventListener('click', function () {
   updateSidePanel();
 
   document.getElementById('set-marker').disabled = false;
+  document.getElementById('add-marker').disabled = true;
 });
 
 document.getElementById('set-marker').addEventListener('click', function () {
@@ -68,5 +69,6 @@ document.getElementById('set-marker').addEventListener('click', function () {
     newMarker.dragging.disable();
     newMarker = null;
     document.getElementById('set-marker').disabled = true;
+    document.getElementById('add-marker').disabled = false;
   }
 });
