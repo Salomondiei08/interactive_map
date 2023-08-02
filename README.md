@@ -26,8 +26,7 @@ This is an interactive map application built using Leaflet, a powerful open-sour
 No installation required. You can use the web application directly.
 
 1. Clone the repository or download the code.
-2. Enter in the src folder
-3. Open the `index.html` file in your browser.
+2. Open the `index.html` file in your browser.
 
 ## Usage
 
