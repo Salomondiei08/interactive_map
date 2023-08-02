@@ -12,8 +12,8 @@ This is an interactive map application built using Leaflet, a powerful open-sour
 
 ## Screenshots
 
-![Screenshot Without Pointers](images/screen-without-marker.png)
-![Screenshot With Pointers](images/screen-with-markers.png)
+![Screenshot Without Pointers](screenshots/screen-without-marker.png)
+![Screenshot With Pointers](screenshots/screen-with-markers.png)
 
 ## Getting Started
 
@@ -42,7 +42,7 @@ No installation required. You can use the web application directly.
 
 ## Author
 
-- **Salomon DIEI**: Mobile and Web Developer
+- **Salomon DIEI**: Software Engineer
 
 ## Acknowledgments 
 
